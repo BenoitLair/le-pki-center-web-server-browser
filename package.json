@@ -1,0 +1,42 @@
+{
+  "name": "le-pki-center-web-management",
+  "version": "1.0.0",
+  "description": "letsencrypt pki center server",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.6.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "file-browser": "^0.0.5",
+    "morgan": "^1.8.1",
+    "node-file-manager": "^0.3.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-livereload": "^3.8.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-watch": "^4.3.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurushi9000/le-pki-center-web-server-browser.git"
+  },
+  "keywords": [
+    "pki",
+    "server",
+    "letsencrypt"
+  ],
+  "author": "Lair Benoit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kurushi9000/le-pki-center-web-server-browser/issues"
+  },
+  "homepage": "https://github.com/kurushi9000/le-pki-center-web-server-browser#readme"
+}
