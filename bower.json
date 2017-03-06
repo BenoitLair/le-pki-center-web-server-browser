@@ -1,0 +1,30 @@
+{
+  "name": "le-pki-center-web-management",
+  "description": "letsencrypt pki center server",
+  "main": "server.js",
+  "authors": [
+    "Lair Benoit"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "pki",
+    "server",
+    "letsencrypt"
+  ],
+  "homepage": "https://github.com/kurushi9000/le-pki-center-web-server-browser",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "angular": "^1.6.2",
+    "angular-route": "^1.6.2",
+    "bootstrap": "^3.3.7",
+    "jsTree-directive": "jstree-directive#^0.1.5"
+  }
+}

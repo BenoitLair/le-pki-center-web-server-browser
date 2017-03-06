@@ -1,0 +1,1000 @@
+   71  cat domains.txt
+   72  vim domains.txt
+   73  /root/ns-letsencrypt/ns-cronjob.sh
+   74  vim domains.txt
+   75  /root/ns-letsencrypt/ns-cronjob.sh
+   76  vim domains.txt
+   77  /root/ns-letsencrypt/ns-cronjob.sh
+   78  vim domains.txt
+   79  /root/ns-letsencrypt/ns-cronjob.sh
+   80  vim domains.txt
+   81  /root/ns-letsencrypt/ns-cronjob.sh
+   82  vim domains.txt
+   83  /root/ns-letsencrypt/ns-cronjob.sh
+   84  vim domains.txt
+   85  /root/ns-letsencrypt/ns-cronjob.sh
+   86  vim domains.txt
+   87  /root/ns-letsencrypt/ns-cronjob.sh
+   88  vim domains.txt
+   89  /root/ns-letsencrypt/ns-cronjob.sh
+   90  cd ..
+   91  ls
+   92  mv ns-letsencrypt ns-letsencrypt-wws1
+   93  git clone --recursive https://github.com/ryancbutler/ns-letsencrypt
+   94  ls ns-letsencrypt
+   95  cd ns-letsencrypt
+   96  cp domains.txt.example domains.txt
+   97  cp config.sh.example config.sh
+   98  vim domains.txt
+   99  vim ../ns-letsencrypt-wws1/domains.txt
+  100  cp config.sh.example config.sh
+  101  crontab -l
+  102  crontab -e
+  103  cd ~/ns-letsencrypt
+  104  git pull
+  105  git submodule update --init --recursive
+  106  cp mynsconfig.py.example mynsconfig.py
+  107  vim mynsconfig.py
+  108  vim config.sh
+  109  cd
+  110  ls
+  111  cd https://www.ops-store.fr/id.wes
+  112  cd ns-letsencrypt-wws1/
+  113  ls
+  114  cat domains.txt
+  115  crontab -l
+  116  vim config.sh
+  117  vim mynsconfig.py
+  118  cat domains.txt
+  119  cd
+  120  ls
+  121  cd ns-letsencrypt-wws1/
+  122  ls
+  123  cat domains.txt
+  124  vim domains.txt
+  125  ping wsol.me
+  126  vim domains.txt
+  127  crontab -l
+  128  /root/ns-letsencrypt-wws1/ns-cronjob.sh
+  129  cat domains.txt
+  130  crontab -l
+  131  ./ns-cronjob.sh 
+  132  vim config.sh
+  133  vim ../ns-letsencrypt/config.sh
+  134  vim config.sh
+  135  ./ns-cronjob.sh 
+  136  cd ..
+  137  ls ns-letsencrypt
+  138  cd ns-letsencrypt
+  139  cat domains.txt
+  140  cd ..
+  141  cd ns-letsencrypt-wws1/
+  142  cat domains.txt
+  143  cat config.sh
+  144  vim mynsconfig.py
+  145  cd ..
+  146  mkdir letsencrypt-wws1
+  147  mv ns-letsencrypt-wws1 letsencrypt-wws1/
+  148  cd letsencrypt-wws1/
+  149  mv ns-letsencrypt-wws1 ns-letsencrypt
+  150  cd ns-letsencrypt/
+  151  pwd
+  152  vim config.sh
+  153  ./ns-cronjob.sh 
+  154  vim ns-cronjob.sh 
+  155  cd ..
+  156  ls
+  157  mv ns-letsencrypt/ ../ns-letsencrypt-wws1
+  158  cd ..
+  159  ls letsencrypt-wws1/
+  160  rm -rf letsencrypt-wws1/
+  161  vim ns-letsencrypt-wws1/config.sh
+  162  vim ns-letsencrypt-wws1/ns-cronjob.sh 
+  163  cd ns-letsencrypt-wws1/
+  164  ls *.sh
+  165  ls
+  166  find ./ -name "*" -exec grep "ns-letsencrypt" {} \; -print
+  167  ls *.sh
+  168  vim ns-cronjob.sh 
+  169  vim ns-firstrunhook.sh 
+  170  vim ns-hook.sh 
+  171  vim ns-firstrunhook.sh 
+  172  vim ns-cronjob.sh 
+  173  crontab -l
+  174  /root/ns-letsencrypt-wws1/ns-cronjob.sh
+  175  ping www.wsol.me
+  176  vim domains.txt
+  177  /root/ns-letsencrypt-wws1/ns-cronjob.sh
+  178  ping www.wes-cloud.com
+  179  vim mynsconfig.py
+  180  cd ..
+  181  history | grep git
+  182  history 
+  183  history | grep git
+  184  git clone --recursive https://github.com/ryancbutler/ns-letsencrypt
+  185  mkdir toto
+  186  cd toto/
+  187  git clone --recursive https://github.com/ryancbutler/ns-letsencrypt
+  188  mv ns-letsencrypt ns-letsencrypt-beta
+  189  git clone --recursive https://github.com/ryancbutler/ns-letsencrypt
+  190  mv ns-letsencrypt ns-letsencrypt-src
+  191  mv ns-letsencrypt-beta ../
+  192  cd ..
+  193  md toto letsencrypt-src
+  194  mv toto letsencrypt-src
+  195  cd ns-letsencrypt-beta/
+  196  ls
+  197  cp domains.txt.example domains.txt
+  198  cp config.sh.example config.sh
+  199  vim domains.txt
+  200  cp mynsconfig.py.example mynsconfig.py
+  201  vim mynsconfig.py
+  202  cat domains.txt
+  203  ks
+  204  ls
+  205  vim mynsconfig.py
+  206  vim config.sh
+  207  cat domains.txt
+  208  vim domains.txt
+  209  vim config.sh
+  210  vim mynsconfig.py
+  211  ls *.sh
+  212  vim ns-cronjob.sh 
+  213  vim ns-firstrunhook.sh 
+  214  vim ns-hook.sh 
+  215  vim config.sh
+  216  /root/ns-letsencrypt-beta/dehydrated/dehydrated -c -f /root/ns-letsencrypt-beta/config.sh -k /root/ns-letsencrypt-beta/ns-firstrunhook.sh
+  217  vim config.sh
+  218  /root/ns-letsencrypt-beta/ns-cronjob.sh 
+  219  root/ns-letsencrypt-beta/dehydrated/dehydrated -c -f /root/ns-letsencrypt-beta/config.sh -k /root/ns-letsencrypt-beta/ns-firstrunhook.sh
+  220  /root/ns-letsencrypt-beta/dehydrated/dehydrated -c -f /root/ns-letsencrypt-beta/config.sh -k /root/ns-letsencrypt-beta/ns-firstrunhook.sh
+  221  cd CER
+  222  cd certs/
+  223  ls
+  224  rm ./*
+  225  rm -rf ./*
+  226  cd ..
+  227  ls
+  228  /root/ns-letsencrypt-beta/dehydrated/dehydrated -c -f /root/ns-letsencrypt-beta/config.sh -k /root/ns-letsencrypt-beta/ns-firstrunhook.sh
+  229  cd CER
+  230  cd certs/
+  231  ls
+  232  cd ..
+  233  vim domains.txt
+  234  ./ns-cronjob.sh 
+  235  rm -rf certs/ssl-designproduction2.wes-cloud.com/
+  236  history 
+  237  /root/ns-letsencrypt-beta/dehydrated/dehydrated -c -f /root/ns-letsencrypt-beta/config.sh -k /root/ns-letsencrypt-beta/ns-firstrunhook.sh
+  238  cd ..
+  239  cp -a letsencrypt-src/ns-letsencrypt-src/ ./
+  240  mv ns-letsencrypt-src ns-letsencrypt-beta2
+  241  cd ns-letsencrypt-beta2/
+  242  ls
+  243  cp domains.txt.example domains.txt
+  244  cp mynsconfig.py.example mynsconfig.py
+  245  cp config.sh.example config.sh
+  246  vim config.sh
+  247  vim mynsconfig.py
+  248  /root/ns-letsencrypt-beta2/dehydrated/dehydrated -c -f /root/ns-letsencrypt-beta2/config.sh -k /root/ns-letsencrypt-beta2/ns-firstrunhook.sh
+  249  vim domains.txt
+  250  vim ../ns-letsencrypt-beta/domains.txt
+  251  vim domains.txt
+  252  /root/ns-letsencrypt-beta2/dehydrated/dehydrated -c -f /root/ns-letsencrypt-beta2/config.sh -k /root/ns-letsencrypt-beta2/ns-firstrunhook.sh
+  253  vim mynsconfig.py
+  254  vim ../ns-letsencrypt/mynsconfig.py
+  255  cd sh
+  256  ls
+  257  cd certs/
+  258  ls
+  259  cd ..
+  260  ls
+  261  ls *.sh
+  262  vim ns-cronjob.sh 
+  263  vim ns-firstrunhook.sh 
+  264  vim ns-hook.sh 
+  265  vim config.sh
+  266  history 
+  267  cd certs/
+  268  rm -rf ./*
+  269  history 
+  270  /root/ns-letsencrypt-beta2/dehydrated/dehydrated -c -f /root/ns-letsencrypt-beta2/config.sh -k /root/ns-letsencrypt-beta2/ns-firstrunhook.sh
+  271  vim con
+  272  cd ..
+  273  vim config.sh
+  274  vim mynsconfig.py
+  275  cd certs/
+  276  ls
+  277  rm -rf ./*
+  278  ls
+  279  cd ..
+  280  ls
+  281  vim config.sh
+  282  /root/ns-letsencrypt-beta2/dehydrated/dehydrated -c -f /root/ns-letsencrypt-beta2/config.sh -k /root/ns-letsencrypt-beta2/ns-firstrunhook.sh
+  283  vim config.sh
+  284  vim mynsconfig.py
+  285  vim ../ns-letsencrypt-wws1/mynsconfig.py
+  286  vim mynsconfig.py
+  287  vim ../ns-letsencrypt-wws1/mynsconfig.py
+  288  vim mynsconfig.py
+  289  /root/ns-letsencrypt-beta2/dehydrated/dehydrated -c -f /root/ns-letsencrypt-beta2/config.sh -k /root/ns-letsencrypt-beta2/ns-firstrunhook.sh
+  290  vim mynsconfig.py
+  291  vim config.sh
+  292  /root/ns-letsencrypt-beta2/dehydrated/dehydrated -c -f /root/ns-letsencrypt-beta2/config.sh -k /root/ns-letsencrypt-beta2/ns-firstrunhook.sh
+  293  cd certs/
+  294  ls
+  295  rm -rf ./*
+  296  cd ..
+  297  /root/ns-letsencrypt-beta2/dehydrated/dehydrated -c -f /root/ns-letsencrypt-beta2/config.sh -k /root/ns-letsencrypt-beta2/ns-firstrunhook.sh
+  298  vim ns-cronjob.sh 
+  299  ./ns-
+  300  ./ns-cronjob.sh 
+  301  vim domains.txt
+  302  ./ns-cronjob.sh 
+  303  cd ..
+  304  cp -a letsencrypt-src/ns-letsencrypt-src/ ./
+  305  mv ns-letsencrypt-src ns-letsencrypt-beta3
+  306  cd ns-letsencrypt-beta3/
+  307  cp domains.txt.example domains.txt
+  308  cp config.sh.example config.sh
+  309  cp mynsconfig.py.example mynsconfig.py
+  310  vim ../ns-letsencrypt-beta2/
+  311  vim ../ns-letsencrypt-beta2/config.sh
+  312  vim ../ns-letsencrypt-beta2/mynsconfig.py
+  313  vim mynsconfig.py
+  314  cat domains.txt
+  315  cat ../ns-letsencrypt-beta2/domains.txt
+  316  vi domains.txt
+  317  vim domains.txt
+  318  ls *.sh
+  319  vim ns-cronjob.sh 
+  320  vim ns-firstrunhook.sh 
+  321  vim ns-cronjob.sh 
+  322  vim ns-firstrunhook.sh 
+  323  vim ns-hook.sh 
+  324  vim config.sh
+  325  ./ns-cronjob.sh 
+  326  ls
+  327  vim ns-cronjob.sh 
+  328  /root/ns-letsencrypt-beta3/dehydrated/dehydrated -c -f /root/ns-letsencrypt-beta3/config.sh -k /root/ns-letsencrypt-beta3/ns-firstrunhook.sh 
+  329  vim domains.txt
+  330  /root/ns-letsencrypt-beta3/dehydrated/dehydrated -c -f /root/ns-letsencrypt-beta3/config.sh -k /root/ns-letsencrypt-beta3/ns-firstrunhook.sh 
+  331  vim mynsconfig.py
+  332  cd certs/
+  333  ls
+  334  rm -rf ./*
+  335  cd ..
+  336  /root/ns-letsencrypt-beta3/dehydrated/dehydrated -c -f /root/ns-letsencrypt-beta3/config.sh -k /root/ns-letsencrypt-beta3/ns-firstrunhook.sh 
+  337  ./ns-cronjob.sh 
+  338  vim ns-cronjob.sh 
+  339  ./ns-cronjob.sh 
+  340  cat domains.txt
+  341  vim ns-firstrunhook.sh 
+  342  vim ns-cronjob.sh 
+  343  vim domains.txt
+  344  ./ns-cronjob.sh 
+  345  ping ssl-designproduction9.wes-cloud.com...
+  346  ping ssl-designproduction9.wes-cloud.com
+  347  ./ns-cronjob.sh 
+  348  vim domains.txt
+  349  ./ns-cronjob.sh 
+  350  cd ..
+  351  cp -a letsencrypt-src/ ns-letsencrypt-beta4
+  352  cd ns-letsencrypt-beta4/
+  353  ls
+  354  mv ns-letsencrypt-src ../
+  355  cd ..
+  356  rm -rf ns-letsencrypt-beta4/
+  357  mv ns-letsencrypt-src/ ns-letsencrypt-beta4
+  358  ls letsencrypt-src/ns-letsencrypt-src
+  359  cd ns-letsencrypt-beta4/
+  360  ls
+  361  cp domains.txt.example domains.txt
+  362  cp mynsconfig.py.example mynsconfig.py
+  363  cp config.sh.example config.sh
+  364  vim domains.txt
+  365  vim config.sh
+  366  crontab -l
+  367  vim /root/ns-letsencrypt-wws1/ns-cronjob.sh 
+  368  cd /root/ns-letsencrypt
+  369  vim config.sh
+  370  cd ../ns-letsencrypt-beta4/
+  371  vim config.sh
+  372  vim domains.txt
+  373  ls *.sh
+  374  vim ns-cronjob.sh 
+  375  vim ns-firstrunhook.sh 
+  376  vim ns-hook.sh 
+  377  history 
+  378  /root/ns-letsencrypt-beta4/dehydrated/dehydrated -c -f /root/ns-letsencrypt-beta4/config.sh -k /root/ns-letsencrypt-beta4/ns-firstrunhook.sh 
+  379  vim mynsconfig.py
+  380  vim ../ns-letsencrypt-beta3/mynsconfig.py
+  381  vim mynsconfig.py
+  382  vim config.sh
+  383  /root/ns-letsencrypt-beta4/dehydrated/dehydrated -c -f /root/ns-letsencrypt-beta4/config.sh -k /root/ns-letsencrypt-beta4/ns-firstrunhook.sh 
+  384  vim domains.txt
+  385  /root/ns-letsencrypt-beta4/dehydrated/dehydrated -c -f /root/ns-letsencrypt-beta4/config.sh -k /root/ns-letsencrypt-beta4/ns-firstrunhook.sh 
+  386  ./ns-cronjob.sh 
+  387  cd ..
+  388  cp -a letsencrypt-src/ns-letsencrypt-src/ ns-letsencrypt-beta5
+  389  cd ns-letsencrypt-beta5/
+  390  cp domains.txt.example domains.txt
+  391  cp mynsconfig.py.example mynsconfig.py
+  392  cp config.sh.example config.sh
+  393  vim config.sh
+  394  vim mynsconfig.py
+  395  vim ../ns-letsencrypt-beta4/config.sh
+  396  vim ../ns-letsencrypt-beta4/mynsconfig.py
+  397  vim mynsconfig.py
+  398  ls *.sh
+  399  vim ns-cronjob.sh 
+  400  vim ns-firstrunhook.sh 
+  401  vim ns-hook.sh 
+  402  cat domains.txt
+  403  vim mynsconfig.py
+  404  vim config.sh
+  405  history |grep dehy
+  406  /root/ns-letsencrypt-beta5/dehydrated/dehydrated -c -f /root/ns-letsencrypt-beta5/config.sh -k /root/ns-letsencrypt-beta5/ns-firstrunhook.sh
+  407  vim domains.txt
+  408  /root/ns-letsencrypt-beta5/dehydrated/dehydrated -c -f /root/ns-letsencrypt-beta5/config.sh -k /root/ns-letsencrypt-beta5/ns-firstrunhook.sh
+  409  vim domains.txt
+  410  /root/ns-letsencrypt-beta5/dehydrated/dehydrated -c -f /root/ns-letsencrypt-beta5/config.sh -k /root/ns-letsencrypt-beta5/ns-firstrunhook.sh
+  411  cd /
+  412  cd
+  413  cd ns-letsencrypt-beta5/
+  414  cat domains.txt
+  415  ping test-letsencrypt5.web-et-solutions.com
+  416  vim domains.txt
+  417  ./ns-cronjob.sh 
+  418  vim mynsconfig.py
+  419  ./ns-cronjob.sh 
+  420  vim domains.txt
+  421  ./ns-cronjob.sh 
+  422  ls
+  423  ls certs/test-letsencrypt4.web-et-solutions.c
+  424  vim domains.txt
+  425  ./ns-cronjob.sh 
+  426  cat domains.txt
+  427  ls
+  428  vim ns-cronjob.sh 
+  429  vim /root/ns-letsencrypt-beta5/dehydrated/dehydrated 
+  430  vim ns-firstrunhook.sh 
+  431  vim ns-copytons.py 
+  432  ls
+  433  vim README.md 
+  434  vim ns-copytons.py 
+  435  find ./ -name "*" -exec grep "ns-copytons.py" {} \; -print
+  436  vim ./ns-hook.sh 
+  437  vim mynsconfig.py
+  438  ls -ail certs/test-letsencrypt4.web-et-solutions.com/*
+  439  cd ..
+  440  cd ns-letsencrypt-wws1/
+  441  vim mynsconfig.py
+  442  vim config.sh
+  443  ls *.sh
+  444  vim ns-cronjob.sh 
+  445  vim ns-firstrunhook.sh 
+  446  vim ns-hook.sh 
+  447  vim ns-cronjob.sh 
+  448  ./ns-cronjob.sh 
+  449  vim ./ns-cronjob.sh 
+  450  ./ns-cronjob.sh 
+  451  vim ./ns-cronjob.sh 
+  452  ./ns-cronjob.sh 
+  453  vim ./ns-cronjob.sh 
+  454  ./ns-cronjob.sh 
+  455  cd ..
+  456  cd ns-letsencrypt-beta5/
+  457  vim ./ns-cronjob.sh 
+  458  ./ns-cronjob.sh 
+  459  vim ./ns-cronjob.sh 
+  460  ./ns-cronjob.sh 
+  461  find ./ -name "*" -exec grep "DELETE NETSCALER CERTIFICATE:" {} \; -print
+  462  vim ./ns-copytons.py 
+  463  find ./ -name "*" -exec grep "Link Netscaler CERTS" {} \; -print
+  464  vim ./ns-copytons.py 
+  465  :q
+  466  vim ./ns-copytons.py 
+  467  ./ns-copytons.py 
+  468  vim ./ns-copytons.py 
+  469  ./ns-copytons.py 
+  470  ./ns-copytons.py 
+  471  vim config.sh
+  472  ./ns-cronjob.sh 
+  473  vim config.sh
+  474  vim domains.txt
+  475  ./ns-cronjob.sh 
+  476  ls accounts/aHR0cHM6Ly9hY21lLXN0YWdpbmcuYXBpLmxldHNlbmNyeXB0Lm9yZy9kaXJlY3RvcnkK/account_key.pem 
+  477  vim accounts/aHR0cHM6Ly9hY21lLXN0YWdpbmcuYXBpLmxldHNlbmNyeXB0Lm9yZy9kaXJlY3RvcnkK/account_key.pem 
+  478  vim accounts/aHR0cHM6Ly9hY21lLXN0YWdpbmcuYXBpLmxldHNlbmNyeXB0Lm9yZy9kaXJlY3RvcnkK/registration_info.json 
+  479  vim ns-cronjob.sh 
+  480  vim config.sh
+  481  vim mynsconfig.py
+  482  vim config.sh
+  483  vim ./ns-cronjob.sh 
+  484  ./ns-cronjob.sh 
+  485  vim ./ns-cronjob.sh 
+  486  ./ns-cronjob.sh 
+  487  vim config.sh
+  488  cd ..
+  489  cp -a ns-letsencrypt-beta5 ns-letsencrypt-beta6
+  490  cd ns-letsencrypt-beta6/
+  491  ls
+  492  cd certs/
+  493  ls
+  494  rm -rf ./*
+  495  cd ..
+  496  ls
+  497  cd archive/
+  498  kls
+  499  ls
+  500  rm -rf ./*
+  501  ls
+  502  cd ..
+  503  ls
+  504  cd accounts/
+  505  ls
+  506  rm -rf ./*
+  507  cd ..
+  508  cd ns-letsencrypt-beta5/
+  509  cd accounts/
+  510  ls
+  511  vim aHR0cHM6Ly9hY21lLXN0YWdpbmcuYXBpLmxldHNlbmNyeXB0Lm9yZy9kaXJlY3RvcnkK/
+  512  vim aHR0cHM6Ly9hY21lLXN0YWdpbmcuYXBpLmxldHNlbmNyeXB0Lm9yZy9kaXJlY3RvcnkK/registration_info.json 
+  513  vim aHR0cHM6Ly9hY21lLXYwMS5hcGkubGV0c2VuY3J5cHQub3JnL2RpcmVjdG9yeQo/registration_info.json 
+  514  cd ../../ns-letsencrypt-beta6/
+  515  ls
+  516  cat www-temp/placeholder.txt 
+  517  vim config.sh
+  518  cat domains.txt
+  519  vim domains.txt
+  520  vim config.sh
+  521  vim mynsconfig.py
+  522  ls
+  523  vim config.sh
+  524  ls
+  525  vim mynsconfig.py
+  526  vim ns-cronjob.sh 
+  527  vim ns-firstrunhook.sh 
+  528  vim ns-hook.sh 
+  529  crontab -l
+  530  cat ns-cronjob.sh 
+  531  /root/ns-letsencrypt-beta6/dehydrated/dehydrated -c -f /root/ns-letsencrypt-beta6/config.sh -k /root/ns-letsencrypt-beta6/ns-firstrunhook.sh 
+  532  cat domains.txt
+  533  vim domains.txt
+  534  cat domains.txt
+  535  ./ns-cronjob.sh 
+  536  vim config.sh
+  537  history >> /root/history_letsencrypt_historique_01
+  538  cd
+  539  vim history_letsencrypt_historique_01 
+  540  vim letsencrypt-src/ns-letsencrypt-src/config.sh.example 
+  541  cd letsencrypt-src/ns-letsencrypt-src/
+  542  cd ..
+  543  vim /root/history_letsencrypt_historique_01 
+  544  ls
+  545  git clone --recursive https://github.com/ryancbutler/ns-letsencrypt
+  546  ls
+  547  cd ns-letsencrypt-src/
+  548  cp config.sh.example config.sh
+  549  vim config.sh
+  550  cp domains.txt.example domains.txt.example 
+  551  cp domains.txt.example domains.txt
+  552  vim domains.txt
+  553  cp mynsconfig.py.example mynsconfig.py
+  554  vim mynsconfig.py
+  555  vim config.sh
+  556  ls *.sh
+  557  vim mynsconfig.py
+  558  vim /root/history_letsencrypt_historique_01 
+  559  cat /root/history_letsencrypt_historique_01 | grep git
+  560  cd
+  561  cd ns-letsencrypt-wws1/
+  562  ls
+  563  vim ./ns-cronjob.sh 
+  564  vim config.sh
+  565  ./ns-cronjob.sh 
+  566  vim ns-cronjob.sh 
+  567  crontab -l
+  568  crontab -e
+  569  ifconfig 
+  570  cd
+  571  cp -a letsencrypt-src/ns-letsencrypt-src/ ns-letsencrypt-195.7.116.189
+  572  cd ns-letsencrypt-195.7.116.189/
+  573  ls
+  574  vim config.sh
+  575  vim mynsconfig.py
+  576  ls
+  577  vim domains.txt
+  578  ls
+  579  vim config.sh
+  580  vim ns-cronjob.sh 
+  581  vim ns-firstrunhook.sh 
+  582  vim ns-hook.sh 
+  583  vim mynsconfig.py
+  584  vim ns-hook.sh 
+  585  vim config.sh
+  586  cat ns-cronjob.sh 
+  587  /root/ns-letsencrypt-195.7.116.189/dehydrated/dehydrated -c -f /root/ns-letsencrypt-195.7.116.189/config.sh -x -k /root/ns-letsencrypt-195.7.116.189/ns-firstrunhook.sh 
+  588  vim ns-hook.sh 
+  589  vim ns-firstrunhook.sh 
+  590  vim ns-cronjob.sh 
+  591  /root/ns-letsencrypt-195.7.116.189/dehydrated/dehydrated -c -f /root/ns-letsencrypt-195.7.116.189/config.sh -x -k /root/ns-letsencrypt-195.7.116.189/ns-firstrunhook.sh 
+  592  cd
+  593  cd ns-letsencrypt-195.7.116.189/
+  594  ls
+  595  vim mynsconfig.py
+  596  vim config.sh
+  597  vim ns-cronjob.sh 
+  598  vim ns-firstrunhook.sh 
+  599  vim ns-hook.sh 
+  600  vim domains.txt
+  601  ./ns-cronjob.sh 
+  602  vim /etc/hosts
+  603  ./ns-cronjob.sh 
+  604  vim /etc/host
+  605  vim /etc/hosts
+  606  ./ns-cronjob.sh 
+  607  vim config.sh
+  608  ./ns-cronjob.sh 
+  609  http://wsol.me/.well-known/acme-challenge/kiDiLpDlGCe4u8L0CjycWL7aRqMfVe-30Pw8-4ii5Sc
+  610  wget http://wsol.me/.well-known/acme-challenge/kiDiLpDlGCe4u8L0CjycWL7aRqMfVe-30Pw8-4ii5Sc
+  611  vim kiDiLpDlGCe4u8L0CjycWL7aRqMfVe-30Pw8-4ii5Sc 
+  612  wget http://wsol.me/.well-known/acme-challenge/kiDiLpDlGCe4u8L0CjycWL7aRqMfVe-30Pw8-4ii5Sc
+  613  vim kiDiLpDlGCe4u8L0CjycWL7aRqMfVe-30Pw8-4ii5Sc.1 
+  614  ./ns-cronjob.sh 
+  615  ls
+  616  cat domains.txt
+  617  crontab -l
+  618  vim /root/ns-letsencrypt-wws1/ns-cronjob.sh 
+  619  /root/ns-letsencrypt-wws1/ns-cronjob.sh
+  620  wget whatismyipaddress.com
+  621  vim index.html 
+  622  wget whatismyipaddress.fr
+  623  vim index.html.1 
+  624  rm index.html*
+  625  crontab -l
+  626  /root/ns-letsencrypt-wws1/ns-cronjob.sh
+  627  crontab -l
+  628  cd /root/ns-letsencrypt-wws1/
+  629  cat domains.txt
+  630  ping wsol.me
+  631  vim domains.txt
+  632  ping www.wsol.me
+  633  vim domains.txt
+  634  cp domains.txt domains.txt.bck.06032017
+  635  vim domains.txt
+  636  cat domains.txt
+  637  ping webmin-entreprise.private.web-et-solutions.com
+  638  ping webmail-rainloop.private.wes-cloud.com
+  639  ping webmail-obm.cloud.wes-cloud.com
+  640  ping user-225.dev.intra.webetsolutions.com
+  641  ping test-ssl.ws.front.wes-cloud.com
+  642  ping poster-import.client.synchro.web-et-solutions.com
+  643  ping n01.federate.front.wes-cloud.com
+  644  ping io.wes-cloud.com
+  645  cat domains.txt
+  646  ping evo-1216.sync.extra.webetsolutions.com
+  647  ping evo-1216.extra.webetsolutions.com
+  648  ping crm.extra.webetsolutions.com
+  649  ping cafe.chateaudeau.com
+  650  ping wescompare.webetsolutions.com
+  651  ping dokuwiki.webetsolutions.com
+  652  vim domains.txt
+  653  cat domains.txt
+  654  ping ssl-designproduction.wes-cloud.com
+  655  vim domains.txt
+  656  cat domains.txt
+  657  ping crm.extra.webetsolutions.com
+  658  ping io-action.ws.front.wes-cloud.com
+  659  ping wes-cloud.com
+  660  ping www.webetsolutions.com
+  661  ping www.wes-cloud.com
+  662  vim domains.txt
+  663  crontab -l
+  664  /root/ns-letsencrypt-wws1/ns-cronjob.sh
+  665  ls
+  666  cd certs/www.wes-cloud.com/
+  667  ls
+  668  ls -ail
+  669  crontab -l
+  670  /root/ns-letsencrypt-wws1/ns-cronjob.sh
+  671  cd ..
+  672  ls
+  673  vim config.sh
+  674  ls
+  675  vim mynsconfig.py
+  676  ls
+  677  vim ns-hook.sh 
+  678  vim ns-cronjob.sh 
+  679  vim ns-firstrunhook.sh 
+  680  cd ..
+  681  ls
+  682  cp -a letsencrypt-src/ns-letsencrypt-src/ ns-letsencrypt-213.144.199.8-sni-cert1
+  683  cd ns-letsencrypt-213.144.199.8-sni-cert1/
+  684  ls
+  685  vim domains.txt
+  686  ls
+  687  cat domains.txt
+  688  ls
+  689  vim mynsconfig.py
+  690  vim ../ns-letsencrypt-beta6/mynsconfig.py
+  691  vim mynsconfig.py
+  692  ls
+  693  vim mynsconfig.py
+  694  vim ns-cronjob.sh 
+  695  vim ns-copytons.py 
+  696  vim ns-firstrunhook.sh 
+  697  vim ns-hook.sh 
+  698  crontab -l
+  699  crontab -e
+  700  cat ns-firstrunhook.sh 
+  701  cat ns-cronjob.sh 
+  702  /root/ns-letsencrypt-213.144.199.8-sni-cert1/dehydrated/dehydrated -c -f /root/ns-letsencrypt-213.144.199.8-sni-cert1/config.sh -x -k /root/ns-letsencrypt-213.144.199.8-sni-cert1/ns-firstrunhook.sh 
+  703  cat mynsconfig.py
+  704  vim mynsconfig.py
+  705  vim config.sh
+  706  cat domains.txt
+  707  vim domains.txt
+  708  vim config.sh
+  709  /root/ns-letsencrypt-213.144.199.8-sni-cert1/dehydrated/dehydrated -c -f /root/ns-letsencrypt-213.144.199.8-sni-cert1/config.sh -x -k /root/ns-letsencrypt-213.144.199.8-sni-cert1/ns-firstrunhook.sh 
+  710  ping ssl-z03-001.hosting.front.wes-cloud.com
+  711  cat domains.txt
+  712  vim mynsconfig.py
+  713  vim config.sh
+  714  ls
+  715  history 
+  716  /root/ns-letsencrypt-213.144.199.8-sni-cert1/dehydrated/dehydrated -c -f /root/ns-letsencrypt-213.144.199.8-sni-cert1/config.sh -x -k /root/ns-letsencrypt-213.144.199.8-sni-cert1/ns-firstrunhook.sh
+  717  vim config.sh
+  718  vim mynsconfig.py
+  719  /root/ns-letsencrypt-213.144.199.8-sni-cert1/dehydrated/dehydrated -c -f /root/ns-letsencrypt-213.144.199.8-sni-cert1/config.sh -x -k /root/ns-letsencrypt-213.144.199.8-sni-cert1/ns-firstrunhook.sh
+  720  vim mynsconfig.py
+  721  vim ../ns-letsencrypt-wws1/config.sh
+  722  vim ../ns-letsencrypt-wws1/mynsconfig.py
+  723  vim mynsconfig.py
+  724  /root/ns-letsencrypt-213.144.199.8-sni-cert1/dehydrated/dehydrated -c -f /root/ns-letsencrypt-213.144.199.8-sni-cert1/config.sh -x -k /root/ns-letsencrypt-213.144.199.8-sni-cert1/ns-firstrunhook.sh
+  725  vim mynsconfig.py
+  726  cp ../ns-letsencrypt-wws1/mynsconfig.py ./
+  727  vim mynsconfig.py
+  728  vim ../ns-letsencrypt-beta6/mynsconfig.py
+  729  vim mynsconfig.py
+  730  vim ../ns-letsencrypt-beta6/mynsconfig.py
+  731  rm -rf certs/ssl-z03-001.hosting.front.wes-cloud.com/
+  732  vim mynsconfig.py
+  733  /root/ns-letsencrypt-213.144.199.8-sni-cert1/dehydrated/dehydrated -c -f /root/ns-letsencrypt-213.144.199.8-sni-cert1/config.sh -x -k /root/ns-letsencrypt-213.144.199.8-sni-cert1/ns-firstrunhook.sh
+  734  vim mynsconfig.py
+  735  vim config.sh
+  736  rm -rf certs/ssl-z03-001.hosting.front.wes-cloud.com/
+  737  /root/ns-letsencrypt-213.144.199.8-sni-cert1/dehydrated/dehydrated -c -f /root/ns-letsencrypt-213.144.199.8-sni-cert1/config.sh -x -k /root/ns-letsencrypt-213.144.199.8-sni-cert1/ns-firstrunhook.sh
+  738  vim config.sh
+  739  vim ../ns-letsencrypt-wws1/config.sh
+  740  vim ../ns-letsencrypt-wws1/mynsconfig.py
+  741  vim mynsconfig.py
+  742  /root/ns-letsencrypt-213.144.199.8-sni-cert1/dehydrated/dehydrated -c -f /root/ns-letsencrypt-213.144.199.8-sni-cert1/config.sh -x -k /root/ns-letsencrypt-213.144.199.8-sni-cert1/ns-firstrunhook.sh
+  743  vim ../ns-letsencrypt-wws1/config.sh
+  744  vim ../ns-letsencrypt-wws1/mynsconfig.py
+  745  vim mynsconfig.py
+  746  vim ../ns-letsencrypt-beta6/
+  747  vim ../ns-letsencrypt-beta6/mynsconfig.py
+  748  rm -rf certs/ssl-z03-001.hosting.front.wes-cloud.com/
+  749  vim mynsconfig.py
+  750  vim config.sh
+  751  ./ns-cronjob.sh 
+  752  ls
+  753  vim config.sh
+  754  vim mynsconfig.py
+  755  cd ..
+  756  cd ns-letsencrypt-213.144.199.8-sni-cert1/
+  757  ls
+  758  vim config.sh
+  759  vim mynsconfig.py
+  760  rm certs/*
+  761  rm -rf certs/ssl-z03-001.hosting.front.wes-cloud.com/
+  762  vim ../ns-letsencrypt-wws1/config.sh
+  763  vim ../ns-letsencrypt-wws1/mynsconfig.py
+  764  /root/ns-letsencrypt-213.144.199.8-sni-cert1/dehydrated/dehydrated -c -f /root/ns-letsencrypt-213.144.199.8-sni-cert1/config.sh -k /root/ns-letsencrypt-213.144.199.8-sni-cert1/ns-firstrunhook.sh 
+  765  vim config.sh
+  766  vim mynsconfig.py
+  767  rm -rf certs/*
+  768  vim mynsconfig.py
+  769  vim config.sh
+  770  ls
+  771  vim config.sh
+  772  vim mynsconfig.py
+  773  vim ns-cronjob.sh 
+  774  vim config.sh
+  775  history 
+  776  /root/ns-letsencrypt-213.144.199.8-sni-cert1/dehydrated/dehydrated -c -f /root/ns-letsencrypt-213.144.199.8-sni-cert1/config.sh -k /root/ns-letsencrypt-213.144.199.8-sni-cert1/ns-firstrunhook.sh
+  777  vim config.sh
+  778  vim mynsconfig.py
+  779  rm -rf certs/ssl-z03-001.hosting.front.wes-cloud.com/
+  780  cat domains.txt
+  781  vim domains.txt
+  782  cat domains.txt
+  783  ping ssl-z03-001-sni.hosting.front.wes-cloud.com
+  784  vim domains.txt
+  785  vim mynsconfig.py
+  786  history 
+  787  /root/ns-letsencrypt-213.144.199.8-sni-cert1/dehydrated/dehydrated -c -f /root/ns-letsencrypt-213.144.199.8-sni-cert1/config.sh -k /root/ns-letsencrypt-213.144.199.8-sni-cert1/ns-firstrunhook.sh
+  788  vim domains.txt
+  789  ./ns-cronjob.sh 
+  790  vim domains.txt
+  791  pwd
+  792  crontab -l
+  793  crontab -e
+  794  crontab -l
+  795  cd ..
+  796  ls
+  797  cp -a letsencrypt-src/ns-letsencrypt-src/ ns-letsencrypt-213.144.199.9-non-sni-cert1/
+  798  cd ns-letsencrypt-213.144.199.9-non-sni-cert1/
+  799  pwd
+  800  ls
+  801  vim config.sh
+  802  vim ../ns-letsencrypt-213.144.199.8-sni-cert1/config.sh
+  803  vim config.sh
+  804  vim domains.txt
+  805  cat ../ns-letsencrypt-213.144.199.8-sni-cert1/domains.txt
+  806  vim domains.txt
+  807  vim mynsconfig.py
+  808  vim config.sh
+  809  vim ns-hook.sh 
+  810  vim ns-firstrunhook.sh 
+  811  vim ns-cronjob.sh 
+  812  ls
+  813  vim config.sh
+  814  vim mynsconfig.py
+  815  vim domains.txt
+  816  history 
+  817  /root/ns-letsencrypt-213.144.199.9-non-sni-cert1/dehydrated/dehydrated -c -f /root/ns-letsencrypt-213.144.199.9-non-sni-cert1/config.sh -k /root/ns-letsencrypt-213.144.199.9-non-sni-cert1/ns-firstrunhook.sh
+  818  wget ssl-z03-002.hosting.front.wes-cloud.com
+  819  rm index.html 
+  820  rm -rf certs/ssl-z03-002.hosting.front.wes-cloud.com/
+  821  /root/ns-letsencrypt-213.144.199.9-non-sni-cert1/dehydrated/dehydrated -c -f /root/ns-letsencrypt-213.144.199.9-non-sni-cert1/config.sh -k /root/ns-letsencrypt-213.144.199.9-non-sni-cert1/ns-firstrunhook.sh
+  822  cd ..
+  823  cd ns-letsencrypt-213.144.199.8-sni-cert1/
+  824  cat domains.txt
+  825  ping ssl-z03-001-sni.hosting.front.wes-cloud.com
+  826  cd ../ns-letsencrypt-213.144.199.9-non-sni-cert1/
+  827  ls
+  828  cat domains.txt
+  829  vim domains.txt
+  830  pwd
+  831  crontab -e
+  832  crontab -el
+  833  crontab -l
+  834  vim ns-cronjob.sh 
+  835  vim /root/ns-letsencrypt-213.144.199.9-non-sni-cert1/config.sh
+  836  vim /root/ns-letsencrypt-213.144.199.9-non-sni-cert1/www-temp/placeholder.txt
+  837  vim /root/ns-letsencrypt-213.144.199.9-non-sni-cert1/www-temp/placeholder.txt 
+  838  cd ..
+  839  ls
+  840  cd /var/ww
+  841  ps -aef | grep apache
+  842  apt-get install apache2
+  843  ps -aef | grep apache
+  844  apt-get install php5
+  845  apt-cache search php5
+  846  apt-cache search php
+  847  apt-get install php libapache2-mod-php php-mcrypt php-mysql
+  848  vim /etc/apache2/sites-enabled/000-default.conf 
+  849  ifconfig 
+  850  vim /etc/apache2/sites-enabled/000-default.conf 
+  851  cd /var/www/html/
+  852  vim /etc/apache2/sites-enabled/000-default.conf 
+  853  /etc/init.d/apache2 restart
+  854  mkdir letsencrypt_center
+  855  cd letsencrypt_center/
+  856  mkdir htdocs
+  857  cd htdocs/
+  858  git clone https://github.com/vakata/jstree/zipball/3.3.3
+  859  wget https://github.com/vakata/jstree/zipball/3.3.3
+  860  ls
+  861  ls -ail
+  862  apt-get install unzip
+  863  unzip 3.3.3 
+  864  ls
+  865  cp -a vakata-jstree-9770c67/dist/ ./
+  866  vim index.html
+  867  vim /etc/apache2/sites-enabled/000-default.conf 
+  868  /etc/init.d/apache2 restart
+  869  vim index.html 
+  870  ls vakata-jstree-9770c67/dist/
+  871  vim index.html 
+  872  find ./ -name "jsquery.min.js
+  873  find ./ -name "jsquery.min.js"
+  874  find ./ -name "jquery.min.js"
+  875  vim index.html 
+  876  cd dist/
+  877  wget https://code.jquery.com/jquery-3.1.1.min.js
+  878  cd ..
+  879  vim index.html 
+  880  npm -g install file-browser
+  881  apt-get install npm
+  882  npm -g install file-browser
+  883  ls
+  884  ls -ail
+  885  file-browser 
+  886  apt-get install node
+  887  apt-get install nodejs
+  888  file-browser 
+  889  netstat -tanpu |grep LISTEN
+  890  node file-browser 
+  891  apt install nodejs-legacy
+  892  file-browser 
+  893  mv index.html index2.html 
+  894  ls
+  895  file-browser 
+  896  vim server.js
+  897  node server.js &
+  898  ls
+  899  updatedb
+  900  locate template.html
+  901  npm install file-browser
+  902  ls
+  903  ls -ail
+  904  vim node_modules/file-browser/lib/template.html 
+  905  vim node_modules/file-browser/lib/app.
+  906  vim node_modules/file-browser/lib/app.js 
+  907  file-browser 
+  908  vim node_modules/file-browser/lib/app.js 
+  909  cd node_modules/file-browser/lib/
+  910  mv app.js app2.js 
+  911  vim app.js
+  912  cd ..
+  913  file-browser 
+  914  cd node_modules/file-browser/lib/
+  915  mv app.js app3.js
+  916  mv app2.js app.js
+  917  cd ..
+  918  d ..
+  919  cd ..
+  920  ls -ail
+  921  cd ..
+  922  vim /etc/apache2/sites-enabled/000-default.conf 
+  923  vim /etc/apache2/apache2.conf 
+  924  vim /etc/apache2/envvars 
+  925  chown -R www-data:www-data
+  926  chown -R www-data:www-data ./*
+  927  cd htdocs/
+  928  file-browser 
+  929  file-browser /
+  930  mv /root/ns-letsencrypt-wws1/ ./
+  931  file-browser &
+  932  vim ns-letsencrypt-wws1/config.sh
+  933  pwd
+  934  vim ns-letsencrypt-wws1/config.sh
+  935  cd ns-letsencrypt-wws1/
+  936  ls
+  937  vim config.sh
+  938  vim mynsconfig.py
+  939  vim ns-copytons.py 
+  940  vim ns-cronjob.sh 
+  941  cd ..
+  942  mv ns-letsencrypt-wws1/ /root/
+  943  ln -s /root/ ./
+  944  ls
+  945  vim node_modules/file-browser/lib/template.html 
+  946  vim node_modules/file-browser/lib/app
+  947  vim node_modules/file-browser/lib/app.js 
+  948  ps -aef | grep file-bro
+  949  kill -9 20363
+  950  file-browser --exclude .npm
+  951  file-browser --exclude ".npm"
+  952  cd ..
+  953  file-browser 
+  954  cd htdocs/
+  955  ls
+  956  npm install node-file-manager
+  957  node-file-manager -p 8080 -d ./
+  958  node-file-manager -p 8080 -d /var/www/html/letsencrypt_center/htdocs
+  959  npm install -g node-file-manager
+  960  node-file-manager -p 8080 -d /var/www/html/letsencrypt_center/htdocs
+  961  git clone https://github.com/efeiefei/node-file-manager.git
+  962  cd node-file-manager
+  963  npm i
+  964  cd lib
+  965  node --harmony index.js -p 8080 -d /var/www/html/letsencrypt_center/htdocs
+  966  cd ..
+  967  git clone https://github.com/arvindr21/fileBrowserApp
+  968  npm install
+  969  cd fileBrowserApp/
+  970  npm install
+  971  npm install gulp
+  972  npm -g install gulp
+  973  gulp 
+  974  cd ..
+  975  npm init
+  976  history 
+  977  npm i --save-dev gulp gulp-jshint gulp-livereload gulp-nodemon gulp-watch
+  978  ls *.json
+  979  vim package.json 
+  980  git init
+  981  git add README.md
+  982  echo "# le-pki-center-web-server-browser" >> README.md
+  983  git add README.md
+  984  git commit -m "first commit"
+  985  git remote add origin https://github.com/kurushi9000/le-pki-center-web-server-browser.git
+  986  git push -u origin master
+  987  git add ./*
+  988  git commit -m "deuxieme commit"
+  989  git push -u origin master
+  990  ls
+  991  vim server.js 
+  992  mkdir server
+  993  mkdir client
+  994* d server
+  995  npm init
+  996  echo "# le-pki-center-server" >> README.md
+  997  git init
+  998  git add README.md
+  999  git commit -m "first commit"
+ 1000  git remote add origin https://github.com/kurushi9000/le-pki-center-server.git
+ 1001  git push -u origin master
+ 1002  npm i --save-dev gulp gulp-jshint gulp-livereload gulp-nodemon gulp-watch
+ 1003  vim package.json 
+ 1004  vi app.js
+ 1005  vim app.js
+ 1006* im routes.js
+ 1007  node server/app.js
+ 1008  cd ..
+ 1009  node server/app.js
+ 1010  cd server
+ 1011  mkdir views
+ 1012  cd views/
+ 1013  vim index.html
+ 1014  cd ..
+ 1015  node server/app.js
+ 1016  cd client/
+ 1017  npm i -g bower
+ 1018  cd cli
+ 1019  bower init
+ 1020  cd ..
+ 1021  bower init
+ 1022  su www-data
+ 1023  bower init --allow-root
+ 1024  vim .bowerrc
+ 1025  bower i --save jquery angular angular-route bootstrap jstree-directive
+ 1026  bower --allow-root i --save jquery angular angular-route bootstrap jstree-directive
+ 1027  cd client/
+ 1028  mkdir jstree
+ 1029  cp ../dist/jstree.min.js jstree/
+ 1030  cp -a ../dist/themes/ jstree/
+ 1031  ls jstree/themes/
+ 1032  mkdir js
+ 1033  mkdir css
+ 1034  mkdir partials
+ 1035  vim ../server/views/index.html 
+ 1036  cd ..
+ 1037  vim gulpfile.js
+ 1038  gulp 
+ 1039  history 
+ 1040  cd fileBrowserApp/
+ 1041  gulp 
+ 1042  cd ..
+ 1043  cd client/
+ 1044  vim js/app.js
+ 1045  vim partials/
+ 1046  vim partials/home.html
+ 1047  vim js/controller.js
+ 1048  vim js/factory.js
+ 1049  vim css/app.css
+ 1050  mkdir imgs
+ 1051  cd imgs/
+ 1052  git clone https://github.com/arvindr21/fileBrowserApp/tree/master/client/imgs
+ 1053  wget https://github.com/arvindr21/fileBrowserApp/tree/master/client/imgs
+ 1054  lms
+ 1055  ls -ail
+ 1056  wget https://github.com/arvindr21/fileBrowserApp/blob/master/client/imgs/file.png
+ 1057  ls
+ 1058  wget https://github.com/arvindr21/fileBrowserApp/blob/master/client/imgs/folder.png
+ 1059  ls
+ 1060  cd ..
+ 1061  gulp 
+ 1062  cd ..
+ 1063  gulp 
+ 1064  cd fileBrowserApp/
+ 1065  gulp 
+ 1066  cd ..
+ 1067  history | grep git
+ 1068  git commit -m "3eme commit all apps globale
+ 1069  vim history
+ 1070  history >> history01
